@@ -1,4 +1,4 @@
-# Organizador-de-Tarefas
+# Organizador de Tarefas
 Porjeto criado com uma arquitetura baseada em DDD
 
 
@@ -12,3 +12,4 @@ O objetivo desse projeto é o armazenamento de tarefas cadastradas na API
 * .NET 6
 * API
 * Swagger
+* SQL Server
