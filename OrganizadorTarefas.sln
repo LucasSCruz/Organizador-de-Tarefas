@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4694EF0-335E-4B65-897B-D54B90CF42B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizadorTarefas.Domain", "OrganizadorTarefas.Domain\OrganizadorTarefas.Domain.csproj", "{C268CD22-D615-45D6-A6DF-E6DFCF305197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizadorTarefas.Aplication", "OrganizadorTarefas.Aplication\OrganizadorTarefas.Aplication.csproj", "{891FC754-D287-4400-8F4A-AD69A4CAF59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizadorTarefas.Infrastructure", "OrganizadorTarefas.Infrastructure\OrganizadorTarefas.Infrastructure.csproj", "{26D1FC7B-E4A4-4D5D-A238-46EA80F43A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizadorTarefas.UI", "OrganizadorTarefas.UI\OrganizadorTarefas.UI.csproj", "{2AFB8302-F871-48A6-9216-0A3667CD3CA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{844761C5-44A2-4CC5-AC35-DEB932443401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizadorTarefas.Tests", "OrganizadorTarefas.Tests\OrganizadorTarefas.Tests.csproj", "{5022C6C8-EC5B-4D07-B272-8ED14C6786CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C268CD22-D615-45D6-A6DF-E6DFCF305197} = {B4694EF0-335E-4B65-897B-D54B90CF42B0}
+		{891FC754-D287-4400-8F4A-AD69A4CAF59D} = {B4694EF0-335E-4B65-897B-D54B90CF42B0}
+		{26D1FC7B-E4A4-4D5D-A238-46EA80F43A7B} = {B4694EF0-335E-4B65-897B-D54B90CF42B0}
+		{2AFB8302-F871-48A6-9216-0A3667CD3CA3} = {B4694EF0-335E-4B65-897B-D54B90CF42B0}
+		{5022C6C8-EC5B-4D07-B272-8ED14C6786CD} = {844761C5-44A2-4CC5-AC35-DEB932443401}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C268CD22-D615-45D6-A6DF-E6DFCF305197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C268CD22-D615-45D6-A6DF-E6DFCF305197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C268CD22-D615-45D6-A6DF-E6DFCF305197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C268CD22-D615-45D6-A6DF-E6DFCF305197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891FC754-D287-4400-8F4A-AD69A4CAF59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891FC754-D287-4400-8F4A-AD69A4CAF59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891FC754-D287-4400-8F4A-AD69A4CAF59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891FC754-D287-4400-8F4A-AD69A4CAF59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D1FC7B-E4A4-4D5D-A238-46EA80F43A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D1FC7B-E4A4-4D5D-A238-46EA80F43A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D1FC7B-E4A4-4D5D-A238-46EA80F43A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D1FC7B-E4A4-4D5D-A238-46EA80F43A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFB8302-F871-48A6-9216-0A3667CD3CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFB8302-F871-48A6-9216-0A3667CD3CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFB8302-F871-48A6-9216-0A3667CD3CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFB8302-F871-48A6-9216-0A3667CD3CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5022C6C8-EC5B-4D07-B272-8ED14C6786CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5022C6C8-EC5B-4D07-B272-8ED14C6786CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5022C6C8-EC5B-4D07-B272-8ED14C6786CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5022C6C8-EC5B-4D07-B272-8ED14C6786CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
